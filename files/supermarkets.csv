@@ -1,0 +1,39 @@
+name,@type,@lat,@lon,addr:street,addr:unit,addr:city,addr:postcode
+Chattanooga,relation,35.0986420,-85.2385749,,,,
+Food City,node,35.0099223,-85.3262254,,,,
+Publix,node,35.0149590,-85.3255214,Broad Street,,Chattanooga,37409
+Carneceria LOA #7,node,35.0372672,-85.3110610,,,,
+Food City,node,35.0206569,-85.2885835,,,,
+Trader Joe's,node,35.0328677,-85.1545251,Gunbarrel Road,,Chattanooga,37421
+Whole Foods Market,node,35.0632254,-85.3144362,Manufacturers Road,,Chattanooga,37405
+Food City,node,35.0986323,-85.3292909,Signal Mountain Boulevard,,Chattanooga,37405
+Save-A-Lot,node,35.0918635,-85.3108049,Dayton Boulevard,,red bank,37405
+Food City,node,35.1061396,-85.2711735,,,,
+Walmart Neighborhood Market,node,35.1153680,-85.2626990,Hixson Pike,,Chattanooga,37415
+Asian Market,node,35.0448253,-85.1663824,Lee Highway,500,Chattanooga,37421
+Save-A-Lot,node,35.0430841,-85.1673549,Lee Highway,,Chattanooga,37421
+India Bazar,node,35.0435686,-85.1634903,,,,
+United Grocery Outlet,node,35.0871142,-85.1885840,Highway 58,,,
+Publix,node,35.1473504,-85.2072757,Hixson Pike,112,Hixson,37343-4839
+Walmart Supercenter,way,35.0157337,-85.3765512,Cummings Highway,,Chattanooga,37419
+ALDI,way,35.0180744,-85.2041310,Lee Highway,,Chattanooga,37421
+Super Carniceria Loa,way,35.0217296,-85.1981683,Chickamauga Road,,Chattanooga,37421
+Walmart Neighborhood Market,way,35.0054424,-85.1491700,East Brainerd Road,,Chattanooga,37421
+Food City,way,35.0081160,-85.1547664,East Brainerd Road,,Chattanooga,37421
+Janta Farmers Market,way,35.0346377,-85.1777728,Lee Highway,,Chattanooga,
+Walmart Supercenter,way,35.0299942,-85.1530712,Gunbarrel Road,,Chattanooga,37421
+ALDI,way,35.0332994,-85.1512558,Gunbarrel Road,154,Chattanooga,37421
+The Fresh Market,way,35.0384650,-85.1488928,,,,
+Publix,way,35.0650768,-85.3083981,North Market Street,,Chattanooga,37405-4433
+Walmart Supercenter,way,35.0944645,-85.3319283,Signal Mountain Road,,Chattanooga,37405
+ALDI,way,35.0977082,-85.3257258,Mundy Street,,Chattanooga,37405
+Food City,way,35.1197090,-85.2914998,Dayton Boulevard,,,
+Food City,way,35.0836831,-85.1976349,Highway 58,,,
+Food City,way,35.0447990,-85.1643605,,,,
+Publix,way,35.0437903,-85.1500023,McCutcheon Road,,Chattanooga,37421
+ALDI,way,35.1437389,-85.2474645,Highway 153,1,Hixson,37343
+Walmart Supercenter,way,35.1530072,-85.2452701,Highway 153,,Hixson,37343
+Food City,way,35.1449199,-85.2204432,,,,
+Publix,way,34.9991533,-85.1339152,East Brainerd Road,,Chattanooga,37421
+Food City,way,35.0865890,-85.0612080,,,,
+Publix,way,35.0905947,-85.0643332,Snow Hill Road,168,Ooltewah,37363-7834
