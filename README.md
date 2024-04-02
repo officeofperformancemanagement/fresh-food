@@ -2,18 +2,29 @@
 
 ## overpass query
 ```
-[out:csv('name',::type,::lat,::lon,'addr:street','addr:unit','addr:city','addr:postcode';true;',')];
+[out:csv('name',::type,::lat,::lon,'addr:full','addr:housenumber','addr:unit','addr:street','addr:city','addr:postcode',opening_hours,amenity,shop,'brand:wikidata','payment:ebt','payment:snap','payment:wic';true;',')];
+
 // search for the relation named Chattanooga
-rel
+area
   [place=city]
   ["wikidata"="Q186702"]
-  ["name"="Chattanooga"];
-// show the outline
-out geom;
-// turn the relation into an area
-map_to_area;
-// get all supermarkets in the area
-nw[shop=supermarket][name](area);
+  ["name"="Chattanooga"]->.a;
 
-out body center qt;
+
+// get all fresh food options in the area
+(
+  nwr["shop"="butcher"][name](area.a);
+  nwr["shop"="supermarket"][name](area.a);
+  nwr["shop"="greengrocer"][name](area.a);
+  
+  nwr["social_facility"="food_bank"][name](area.a);
+  nwr["social_facility"="soup_kitchen"][name](area.a);
+
+  nwr["amenity"="marketplace"][name](area.a);
+  nwr["shop"="farm"][name](area.a);  
+  
+  nwr["garden:type"="community"][name](area.a);
+);
+
+out body center;
 ```
