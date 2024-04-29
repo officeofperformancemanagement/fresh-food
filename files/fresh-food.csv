@@ -1,6 +1,5 @@
 name,@type,@lat,@lon,addr:full,addr:housenumber,addr:unit,addr:street,addr:city,addr:postcode,opening_hours,amenity,shop,brand:wikidata,payment:ebt,payment:snap,payment:wic
 Food City,node,35.1061396,-85.2711735,,,,,,,,,supermarket,Q16981107,,,
-Carneceria LOA #7,node,35.0372672,-85.3110610,,,,,,,,,supermarket,,,,
 Main Street Market,node,35.0348466,-85.3033251,,,,,,,,marketplace,,,,,
 Hibbits Sports,node,35.1548297,-85.2456380,,,,,,,,marketplace,,,,,
 Antique Shop,node,35.1853918,-85.2457131,,,,,,,,marketplace,,,,,
@@ -41,3 +40,4 @@ The Fresh Market,way,35.0384650,-85.1488928,,,,,,,,,supermarket,Q7735265,,,
 ALDI,way,35.0332994,-85.1512558,,2020,154,Gunbarrel Road,Chattanooga,37421,"Mo, We, Fr-Su 09:00-20:00, Tu, Th 08:30-20:00",,supermarket,Q41171672,yes,yes,no
 Janta Farmers Market,way,35.0346377,-85.1777728,,6500,,Lee Highway,Chattanooga,,09:30-20:30,,supermarket,,,,
 ALDI,way,35.0977082,-85.3257258,,637,,Mundy Street,Chattanooga,37405,"Mo, We, Fr-Su 09:00-20:00, Tu, Th 08:30-20:00",,supermarket,Q41171672,yes,yes,no
+Supermercado,way,35.0028920,-85.2927972,,3515,,Rossville Boulevard,Chattanooga,37407-2466,,,supermarket,,,,
